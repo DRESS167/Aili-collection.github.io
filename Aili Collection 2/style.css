@@ -1,0 +1,177 @@
+body.index{
+    background: linear-gradient(rgba(23, 22, 22, 0.5), rgba(12, 12, 12, 0.5)),
+    url('background.jpg');
+    background-size: cover;
+    background-size: 1258px 550px;
+}
+body{
+    margin: 0;
+}
+.home-parent-div{
+    width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+    font-family: "Handlee", cursive;
+}
+.home-children-div{
+    color: #fce1e4;
+    width: 50%;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.home-home-contain a{
+    color: #fce1e4;
+    text-decoration: none;
+    font-size: 27px; 
+    letter-spacing: 3px;
+}
+.home-children-div h1{
+    font-size: 26px;
+}
+.home-children-div p{
+    font-size: 25px;
+    text-align: center;
+}
+#left-home-child{
+    margin-top: 39px; 
+}
+#right-home-child{
+    margin-top: 30px;
+}
+
+.home-home-contain{
+    margin-bottom: 30px;
+}
+.home-to-about-btn{
+    border: 1px solid #fce1e4;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer; 
+}
+a.home-to-about-btn{
+    text-decoration: none;
+    text-align: center;
+}
+.to-about-btn{
+    margin-top: 50px;
+    text-align: center;
+}
+.clearfix{
+    content: " ";
+    clear: both;
+    display: table;
+}
+.body-about{
+    width: 100%;
+    font-family: "Handlee", cursive;
+}
+.navigasi{
+    width: 100%;
+}
+.navigasi-contain{
+    width: 1100px;
+    padding: 20px 0px;
+    color: white;
+    margin: auto;
+    font-size: 22px;
+}
+.navigasi-contain a{
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+}
+.about-parent-div{
+    width: 1200px;
+    margin: auto;
+
+}
+.about-title-div{
+    margin-top: 17px;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+.about-children-div{
+    width: 50%;
+    box-sizing: border-box;
+}
+.about-logo-containt{
+    width: 60%;
+    margin: auto;
+}
+.about-logo-containt img{
+    border-radius: 50%;
+}
+.about-children-div{
+    font-size: 25px;
+}
+.body-contact{
+    width: 100%;
+    height: 100vh; 
+}
+.body-contact .navigasi{
+    font-family: "Handlee", cursive;
+}
+.body-contact-half{
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 100px; 
+    background-color: #daeaf6;
+}
+.black-bgcolor{
+    background-color: #a7bed3;
+}
+.absolute{
+    position: absolute;
+}
+.contact-form-container{
+    font-family: "Lato", sans-serif;
+    width: 80%;
+    margin: 10px 85px;
+} 
+.form-contact{
+    margin-top: 30px; 
+}
+.form-contact label{
+    display: block;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.form-contact input{
+    line-height: 2;
+    font-size: 15px;
+    width: 250px;
+    margin-bottom: 13px;
+}
+.form-contact input[type="submit"]{
+    display: block;
+    margin-top: 10px;
+    border: 1px solid #fce1e4;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+    padding: 5px 0px;
+    font-size: 16px;
+    width: 170px;
+}
+.map-container{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+.map{
+    font-family: "Roboto", serif;
+    width: 100%;
+    height: 270px;
+    background-color: #9cadce;
+    color: #edf2fb;
+    font-size: 28px; 
+}
